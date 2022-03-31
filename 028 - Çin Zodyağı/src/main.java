@@ -30,7 +30,7 @@ public class main {
             if (dogumTarihi % 12 == 6) {
                 System.out.println("Çin Zodyağı Burcunuz: Kaplan");
             }
-            if (dogumTarihi % 1219 == 7) {
+            if (dogumTarihi % 12 == 7) {
                 System.out.println("Çin Zodyağı Burcunuz: Tavşan");
             }
             if (dogumTarihi % 12 == 8) {
