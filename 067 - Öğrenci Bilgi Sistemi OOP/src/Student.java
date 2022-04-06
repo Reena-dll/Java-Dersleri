@@ -70,12 +70,12 @@ public class Student {
         System.out.println(c2.name + " Notu => " + c2.note);
         System.out.println(c2.name + " Quiz Notu => " + c2.quiz);
         System.out.println(c2.name + " Kanaat Notu Ortalamaya Etkisi => %" + c2.rate);
-        System.out.println(c1.name + " Dersinin Ortalaması => " + (this.c2.note * ((this.c2.rate - 100.0) / -100.0) + ((this.c2.rate / 100.0)*this.c2.quiz)));
+        System.out.println(c2.name + " Dersinin Ortalaması => " + (this.c2.note * ((this.c2.rate - 100.0) / -100.0) + ((this.c2.rate / 100.0)*this.c2.quiz)));
         System.out.println();
         System.out.println(c3.name + " Notu => " + c3.note);
         System.out.println(c3.name + " Quiz Notu => " + c3.quiz);
         System.out.println(c3.name + " Kanaat Notu Ortalamaya Etkisi => %" + c3.rate);
-        System.out.println(c1.name + " Dersinin Ortalaması => " + (this.c3.note * ((this.c3.rate - 100.0) / -100.0) + ((this.c3.rate / 100.0)*this.c3.quiz)));
+        System.out.println(c3.name + " Dersinin Ortalaması => " + (this.c3.note * ((this.c3.rate - 100.0) / -100.0) + ((this.c3.rate / 100.0)*this.c3.quiz)));
 
     }
 
